@@ -1,0 +1,78 @@
+/* There is no error in pepper.css. It is checked with Markup Validation Service.*/
+
+
+body {background-color:#E7DCD7;
+      font-family:Geneva, Arial, Helvetica, sans-serif;}   /*set background color and word font*/
+
+span {font-weight:bold;}   /*set the font of certain words in text*/
+
+#content {margin:0% auto;
+          width:70%;
+          padding:0 6em;}  /*move the content of the page in center*/
+		  
+div.line {display:none;}    /*hide the line between sections*/
+	  
+h1 {text-align:center;}  /* make the title in center*/
+
+#nav-bar {text-align:center;}   /*move the navigation bar in center*/
+#nav-bar ul {list-style-type:none;}   /*remove the nod in front of the words*/
+#nav-bar a {padding:1em;}    /*set space between sections*/
+#nav-bar li {display:inline;}   /*set the navigation bar in a line*/
+
+h2.subtitle {border-left:double thick;
+             border-bottom:solid thick;
+	     border-color:#666666;}    /*boxing the title of each section in page*/
+		   
+#foot {border-top:solid thick;
+       border-color:#666666;
+       text-align:right;
+       font-weight:bold;
+       font-size:smaller;}     /*move the last paragraph to the right*/
+
+div.back{text-align:right;}    /* move "back to top" to the right side*/
+
+.table-edge {border-style:none;}
+.country { border-width:0px;
+           border-bottom:solid thin;
+           border-right:solid thin;
+	   border-color:#666666;
+	   text-align:left;
+           padding-right:2cm;}
+.ton{ border-width:0px;
+      border-bottom:solid thin;
+      border-color:#666666;
+      text-align:left;
+      padding-right:2.5cm;}     /*nodify the table in "world trade" section*/
+	 
+
+
+
+
+#paragraph-introduction {margin-left:160px;}   /*set margin for this paragraph*/
+#pic-intro {background-image: url('corns2.gif');
+	    background-repeat:no-repeat;
+	    background-position:left;}   /*add the picture to the left side in section introduction*/
+			
+
+#paragraph-variety{margin-right:160px;}      /*set margin for this paragraph*/
+#pic-variety{background-image:url('corns3.gif');
+             background-repeat:no-repeat;
+	     background-position:right;}/*add the picture to the right side in section variety*/
+			 
+
+#paragraph-history {margin-left:160px;}    /*set margin for this paragraph*/
+#pic-history {background-image: url('corns2.gif');
+	      background-repeat:no-repeat;
+	      background-position:left;}     /*add the picture to the left side in section history*/
+			  
+#edwardgibbon {float:right;
+               margin-top:20px;}
+span.edwardgibbon {margin-left:30px;
+                   font-size:smaller;}       /*move the picture of Edward Gibbon and the words to the right side*/
+			   
+
+#pic-worldtrade {background-image:url('corns.gif');
+                 background-repeat:no-repeat;
+		 background-position:right;}   /*add the picture to the right-bottom*/
+				 
+div.back{clear:both;}     /*keep the line in original position*/
